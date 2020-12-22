@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c81e0058-9b32-4eda-89ed-e8c59ed5d8c0" name="Default Changelist" comment="" />
+    <list default="true" id="c81e0058-9b32-4eda-89ed-e8c59ed5d8c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fa99764bf49364f37cefbea54039cfb6f665434b/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fa99764bf49364f37cefbea54039cfb6f665434b/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1m1znK9O4uN0dLeUStM95mLjRU4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,8 +40,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка/1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка/1/Bouncy-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -42,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608676050497</updated>
-      <workItem from="1608676051984" duration="436000" />
+      <workItem from="1608676051984" duration="1757000" />
     </task>
     <servers />
   </component>
@@ -54,13 +68,17 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="354" y="208" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1608676150369" />
-    <state x="499" y="185" key="FileChooserDialogImpl" timestamp="1608676478917">
+    <state x="499" y="185" key="FileChooserDialogImpl" timestamp="1608677135594">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="499" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1608676478917" />
-    <state x="221" y="72" key="SettingsEditor" timestamp="1608676152304">
+    <state x="499" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1608677135594" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1608677828284">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608676152304" />
+    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608677828284" />
+    <state x="529" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608677973828">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="529" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1608677973828" />
   </component>
 </project>

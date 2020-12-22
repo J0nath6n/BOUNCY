@@ -1,3 +1,106 @@
-@import url(style.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap");
+.d-flex {
+  display: flex; }
+
+p {
+  font: 16px/26px "Open Sans", sans-serif;
+  text-align: center; }
+
+h3 {
+  color: #333b46;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300; }
+
+header {
+  position: absolute;
+  z-index: 2;
+  left: 8%;
+  top: 0;
+  margin-top: 20px; }
+  header .navbar {
+    border: none; }
+  header .navbar-default {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none; }
+    header .navbar-default .navbar-nav > li > a {
+      color: #ffffff;
+      font-size: 16px;
+      font-family: header .navbar-default .navbar-nav > li > a font-main; }
+      header .navbar-default .navbar-nav > li > a:hover {
+        color: white;
+        border: white 1px solid;
+        border-radius: 25px;
+        padding-bottom: 12px;
+        padding-top: 12px; }
+      header .navbar-default .navbar-nav > li > a:focus {
+        color: white;
+        border: white 1px solid;
+        border-radius: 25px;
+        padding-bottom: 12px;
+        padding-top: 12px; }
+    header .navbar-default .navbar-toggle {
+      border-color: transparent; }
+      header .navbar-default .navbar-toggle .collapsed {
+        background-color: transparent; }
+      header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff; }
+    header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-default .navbar-toggle:hover {
+      background-color: transparent; }
+
+.main {
+  background-image: url("../images/bg_main_01.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative; }
+  .main h1 {
+    z-index: 2;
+    font-family: .main h1 font-sub;
+    font-size: 35px;
+    margin-bottom: 44px;
+    color: white;
+    text-align: center; }
+  .main p {
+    color: white; }
+  .main img {
+    display: block;
+    width: 100%; }
+
+.bouncy {
+  background-color: white;
+  padding-top: 114px;
+  padding-bottom: 98px;
+  align-items: center; }
+  .bouncy .col-sm-5 {
+    padding-left: 15px;
+    margin-bottom: 30px;
+    order: 1;
+    margin-top: 30px; }
+    .bouncy .col-sm-5 h3 {
+      margin-bottom: 50px; }
+    .bouncy .col-sm-5 p {
+      color: #81868e;
+      margin-bottom: 36px;
+      text-align: left; }
+    .bouncy .col-sm-5 a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      border: 1px solid #000000;
+      border-radius: 25px;
+      padding: 10px 30px; }
+  .bouncy .col-sm-3 {
+    max-width: 30%;
+    order: 2; }
+    .bouncy .col-sm-3 img {
+      width: 100%;
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */
