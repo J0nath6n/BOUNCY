@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c81e0058-9b32-4eda-89ed-e8c59ed5d8c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608676050497</updated>
-      <workItem from="1608676051984" duration="2087000" />
+      <workItem from="1608676051984" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="add header block">
       <created>1608678010730</created>
@@ -59,7 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608678010730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add header block">
+      <created>1608678328350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608678328350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add header block">
+      <created>1608678364714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608678364714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,10 +85,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add header block" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="24" key="CommitChangelistDialog2" timestamp="1608678355365">
+    <state x="341" y="24" key="CommitChangelistDialog2" timestamp="1608678363656">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="341" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1608678355365" />
+    <state x="341" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1608678363656" />
     <state x="354" y="208" key="EditFileWatcherDialog" timestamp="1608676150369">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
