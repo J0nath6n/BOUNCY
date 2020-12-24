@@ -1,23 +1,35 @@
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap");
+@keyframes jump {
+  0% {
+    bottom: 77px; }
+  100% {
+    bottom: 50px; } }
 .d-flex {
   display: flex; }
 
+.d-wrap {
+  flex-wrap: wrap; }
+
 p {
-  font: 16px/26px "Open Sans", sans-serif;
-  text-align: center; }
+  font: 14px/26px "Open Sans", sans-serif;
+  text-align: center;
+  color: #81868e; }
 
 h3 {
   color: #333b46;
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 12px; }
 
+/*SECTION HEADER*/
 header {
   position: absolute;
   z-index: 2;
-  left: 8%;
+  width: 100%;
   top: 0;
   margin-top: 20px; }
   header .navbar {
@@ -26,10 +38,16 @@ header {
     background-image: none;
     background-color: transparent;
     box-shadow: none; }
+    header .navbar-default .navbar-nav {
+      margin: 7px -15px;
+      float: right; }
     header .navbar-default .navbar-nav > li > a {
       color: #ffffff;
       font-size: 16px;
-      font-family: header .navbar-default .navbar-nav > li > a font-main; }
+      font-family: header .navbar-default .navbar-nav > li > a font-main;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      line-height: 14px; }
       header .navbar-default .navbar-nav > li > a:hover {
         color: white;
         border: white 1px solid;
@@ -51,6 +69,7 @@ header {
     header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-default .navbar-toggle:hover {
       background-color: transparent; }
 
+/*SECTION MAIN*/
 .main {
   background-image: url("../images/bg_main_01.jpg");
   background-size: cover;
@@ -60,18 +79,41 @@ header {
   overflow: hidden;
   position: relative; }
   .main h1 {
-    z-index: 2;
     font-family: .main h1 font-sub;
+    font-weight: 300;
     font-size: 35px;
-    margin-bottom: 44px;
     color: white;
-    text-align: center; }
+    letter-spacing: 11px;
+    margin: 0 auto 44px; }
   .main p {
-    color: white; }
-  .main img {
+    color: white;
+    margin: auto;
+    word-spacing: 7px;
+    letter-spacing: 1px; }
+  .main a {
+    text-decoration: none;
     display: block;
-    width: 100%; }
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #19bd9a;
+    position: absolute;
+    left: 50%;
+    bottom: 77px;
+    padding-top: 12px; }
+    .main a:after {
+      content: "\f078";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: #ffffff;
+      font-size: 14px;
+      padding-left: 13px; }
+    .main a:hover {
+      animation: jump;
+      animation-duration: 1s;
+      animation-timing-function: linear; }
 
+/*SECTION BOUNCY*/
 .bouncy {
   background-color: white;
   padding-top: 114px;
@@ -85,7 +127,6 @@ header {
     .bouncy .col-sm-5 h3 {
       margin-bottom: 50px; }
     .bouncy .col-sm-5 p {
-      color: #81868e;
       margin-bottom: 36px;
       text-align: left; }
     .bouncy .col-sm-5 a {
@@ -97,7 +138,6 @@ header {
       border-radius: 25px;
       padding: 10px 30px; }
   .bouncy .col-sm-3 {
-    max-width: 30%;
     order: 2; }
     .bouncy .col-sm-3 img {
       width: 100%;
