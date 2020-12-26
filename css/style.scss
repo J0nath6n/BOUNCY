@@ -199,15 +199,6 @@ header {
 
   }
 
-  /*не работает--*/
-  @include max-screen(992px) {
-    .col-sm-3 {
-      order: 1;
-    }
-    .col-sm-5 {
-      order: 2;
-    }
-  }
 }
 
 /*------------------*/
@@ -266,9 +257,6 @@ header {
 
   }
 }
-
-
-
 
 .col-sm-12 {
   text-align: left;
