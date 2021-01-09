@@ -14,13 +14,14 @@
 </head>
 
 <body>
+
 <header>
 
     <div class="container">
         <div class="row">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
-                    <!-- -->
+                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,17 +35,17 @@
                         </a>
                     </div>
 
-                    <!-- -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Hello</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#Hello">Hello</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#Portfolio">Portfolio</a></li>
+                            <li><a href="#Team">Team</a></li>
+                            <li><a href="#Blog">Blog</a></li>
+                            <li><a href="#Contact">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -52,7 +53,8 @@
         </div>
     </div>
 </header>
-<!-- -->
+
+
 <section class="main">
     <div class="container">
         <div class="row">
@@ -69,8 +71,8 @@
     </div>
     <a href="#"></a>
 </section>
-<!-- -->
-<section class="bouncy">
+
+<section class="bouncy" id="Hello">
     <div class="container ">
         <div class="row ">
 
@@ -81,9 +83,10 @@
                     atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
                     similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et
                     harum
-                    quidem rerum facilis est et expedita distinctio.
+                    quidem rerum facilis est et expedita distinctio.<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
                 </p>
-                <a href="#">Read More</a>
+
+                <button onclick="myFunction()" id="myBtn">Read More</button>
             </div>
 
             <div class="col-sm-3 col-sm-offset-2 col-xs-6 col-xs-offset-3">
@@ -92,36 +95,104 @@
         </div>
     </div>
 </section>
-<!-- -->
-<section class="details">
+
+<section class="details" id="About">
     <div class="container">
         <div class="row">
-
             <div class="col-sm-6 col-sm-offset-3 text-center">
                 <h3 class="text-uppercase text-center">DetailS ABOUT BOUNCY</h3>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
+                <!-- Ссылки вкладки -->
+                <div class="tab">
+                    <button class="tablinks active" onclick="openIdea(event, 'creative')" id="defaultOpen"></button>
+                    <button class="tablinks" onclick="openIdea(event, 'available')"></button>
+                    <button class="tablinks" onclick="openIdea(event, 'innovative')"></button>
+                </div>
             </div>
-            <div class="col-sm-12">
-                <div class="col-sm-4">
+
+        </div>
+    </div>
+
+    <!-- Содержимое вкладки -->
+    <div class="container">
+        <div id="creative" class="tabcontent">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
                     <h4>Creative Ideas</h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
                         deleniti atque corrupti quos dolores </p>
                 </div>
+                <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est
+                        laborum et
+                        dolorum fuga. Et harum quidem r</p>
+                </div>
 
-                <div class="col-sm-7 col-sm-offset-1">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+            </div>
+
+        </div>
+
+        <div id="available" class="tabcontent">
+
+            <div class="row">
+
+
+                <div class="col-sm-4 col-xs-12">
+                    <h4>Available Ideas</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores </p>
+                </div>
+                <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est
+                        laborum et
+                        dolorum fuga. Et harum quidem r</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="innovative" class="tabcontent">
+            <div class="row">
+
+
+                <div class="col-sm-4 col-xs-12">
+                    <h4>Innovative Ideas</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores </p>
+                </div>
+                <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est
+                        laborum et
                         dolorum fuga. Et harum quidem r</p>
                 </div>
             </div>
+
         </div>
     </div>
+
+
 </section>
-<!-- -->
+
+
 <section class="projects">
     <div class="container">
         <div class="row">
@@ -129,41 +200,42 @@
             <div class="col-sm-6 text-center">
                 <h3>FEATURED PROJECTS</h3>
                 <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-
             </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row">
 
             <div class="col-sm-6 item">
                 <img class="img-fluid" src="images/proj_1_02.png" alt="img1">
             </div>
-            <div class="col-sm-3 item">
+            <div class="col-sm-3 item text-center">
                 <img class="img-fluid" src="images/proj_2_03.png" alt="img2">
-                <h3 class="text-uppercase "> vintage</h3>
+                <h3 class="text-uppercase text-center"> vintage</h3>
             </div>
             <div class="col-sm-3 item">
                 <img class="img-fluid" src="images/proj_3_03.png" alt="img3">
-                <h3 class="text-uppercase ">branding</h3>
+                <h3 class="text-uppercase text-center">branding</h3>
             </div>
         </div>
     </div>
+
     <div class="brend">
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-sm-8 ">
                     <p>At vero eos et <span>accusamus</span> et iusto odio dignissimos ducimus qui blanditiis
                 </div>
-                <div class="col-sm-3 col-sm-offset-1 col-xs-offset-3 col-xs-8">
+                <div class="col-sm-3 col-sm-offset-1  col-xs-6">
                     <a href="#" target="_blank">Submit Now</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- -->
-<section class="services">
+
+<section class="services" id="Services">
     <div class="container">
         <div class="row">
             <div class="col-sm-6  col-sm-offset-3">
@@ -174,42 +246,88 @@
         <div class="row">
             <div class="col-sm-6 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-2 col-xs-2">
-                        <a class="" href="#">
-                            <img src="images/serv_eq_03.png" alt="img1">
-                        </a>
-                        <a href="#">
-                            <img src="images/serv_br_03.png" alt="img2">
-                        </a>
-                        <a href="#">
-                            <img src="images/serv_gp_03.png" alt="img3">
-                        </a>
-                        <a href="#">
-                            <img src="images/serv_vil_03.png" alt="img4">
-                        </a>
+                    <div class="col-sm-2 col-xs-12">
+
+                        <div class="tab">
+                            <button class="tablinks1 active" onclick="openDesign(event, 'graphic')" id="defaultOpen1">
+                                <img src="images/serv_eq_03.png" alt="img1">
+                            </button>
+                            <button class="tablinks1" onclick="openDesign(event, 'illustration')">
+                                <img src="images/serv_br_03.png" alt="img2">
+                            </button>
+                            <button class="tablinks1" onclick="openDesign(event, 'game')">
+                                <img src="images/serv_gp_03.png" alt="img3">
+                            </button>
+                            <button class="tablinks1" onclick="openDesign(event, 'work')">
+                                <img src="images/serv_vil_03.png" alt="img4">
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-sm-9 col-xs-9 col-xs-offset-1">
-                        <h4>Graphic Design</h4>
-                        <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui blanditiis
-                            praesentium
-                            voluptatum deleniti</p>
-                        <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,<span> similique
+
+                    <div id="graphic" class="tabcontent1">
+                        <div class="col-sm-9 col-xs-9 col-xs-offset-1">
+                            <h4>Graphic Design</h4>
+                            <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui
+                                blanditiis
+                                praesentium
+                                voluptatum deleniti</p>
+                            <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,<span> similique
                         sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        </div>
                     </div>
+
+                    <div id="illustration" class="tabcontent1">
+                        <div class="col-sm-9 col-xs-9 col-xs-offset-1">
+                            <h4>Illustration Design</h4>
+                            <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui
+                                blanditiis
+                                praesentium
+                                voluptatum deleniti</p>
+                            <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,<span> similique
+                        sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        </div>
+                    </div>
+
+                    <div id=game class="tabcontent1">
+                        <div class="col-sm-9 col-xs-9 col-xs-offset-1">
+                            <h4>Game Design</h4>
+                            <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui
+                                blanditiis
+                                praesentium
+                                voluptatum deleniti</p>
+                            <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,<span> similique
+                        sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        </div>
+                    </div>
+
+                    <div id="work" class="tabcontent1">
+                        <div class="col-sm-9 col-xs-9 col-xs-offset-1">
+                            <h4>Work Design</h4>
+                            <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <b>ducimus</b> qui
+                                blanditiis
+                                praesentium
+                                voluptatum deleniti</p>
+                            <p>quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                                provident,<span> similique
+                        sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
             <div class="col-sm-6 col-xs-12">
                 <div class="row">
                     <div class="bg-style">
-                        <div class="item col-xs-12">
+                        <div class="item col-xs-4 ">
                             <div class="counter text-center" data-cp-percentage="80" data-cp-color="#19bd9a"></div>
                             <span>Branding</span>
                         </div>
-                        <div class="item col-xs-12">
+                        <div class="item col-xs-4">
                             <div class="counter text-center" data-cp-percentage="75" data-cp-color="#19bd9a"></div>
                             <span>Web Design</span>
                         </div>
-                        <div class="item col-xs-12">
+                        <div class="item col-xs-4">
                             <div class="counter text-center" data-cp-percentage="60" data-cp-color="#19bd9a"></div>
                             <span>UI/UX</span>
                         </div>
@@ -218,9 +336,9 @@
             </div>
         </div>
     </div>
-    </div>
-    <!-- -->
+
 </section>
+
 <section class="impressed">
     <div class="container">
         <div class="row">
@@ -230,7 +348,7 @@
                     deleniti atque corrupti quos dolores et quas molestias
                 </p>
                 <p class="text-uppercase"><b>- Abdullah Noman</b><br>
-                    Creatice Director, <span>Code Cafe</span></p>
+                    Creative Director, <span>Code Cafe</span></p>
 
             </div>
             <div class="col-sm-4 col-sm-offset-1">
@@ -240,9 +358,10 @@
             </div>
         </div>
     </div>
-    <!-- -->
 </section>
-<section class="portfolio">
+
+
+<section class="portfolio" id="Portfolio">
     <div class="container">
         <div class="row">
             <div class="col-sm-6  col-sm-offset-3">
@@ -266,59 +385,800 @@
         </div>
 
     </div>
-    <!-- -->
+    <!--Galereya------------------------------------------------->
     <div class="container">
         <div id="masonry">
             <div class="item">
                 <img src="images/pr_1_03.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
             </div>
             <div class="item">
                 <img src="images/pr_2_03.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_3_03.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_4_03.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_5_03.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_6_06.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_7_03.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
-                <img src="images/pr_8_09.jpg" alt="foto"/>
+                <img src="images/pr_8_03.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_9_14.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_10_03.jpg" alt="foto"/>
+                <div class="overlay">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_11_06.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
             <div class="item">
                 <img src="images/pr_12_08.jpg" alt="foto"/>
+                <div class="overlay_small">
+                    <h3 class="text-uppercase ">TITLE HERE</h3>
+                    <p class="text-justify">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium</p>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
             </div>
         </div>
         <div class="progect-start">
             <div class="start text-center">
-                <p >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
-                <a  href="#" target="_blank">Start Project</a>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
+                <a href="#" target="_blank">Start Project</a>
             </div>
         </div>
     </div>
 </section>
-<!-- -->
+
+<section class="team" id="Team">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-sm-offset-3">
+                <h3 class="text-uppercase text-center">THE TEAM</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="owl-carousel">
+        <div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="images/team_fotojpg_03.jpg" alt="foto"/>
+                        </div>
+
+
+                        <div class="col-sm-5 col-sm-offset-3 ">
+                            <div class="scrollbar" id="style-scroll">
+                                <div class="force-overflow">
+
+
+                                    <h5 class="text-right">Abdullah Noman<br>
+                                        <span class="text-uppercase"><i>Creative Director, Code Cafe</i></span></h5>
+                                    <p class="text-right">At vero eos et accusamus et iusto odio dignissimos <br>ducimus
+                                        qui
+                                        blanditiis praesentium
+                                    </p>
+
+
+                                    <div class="inform">
+                                        <div><span> BRANDING</span></div>
+                                        <div><span> 80%</span></div>
+                                    </div>
+                                    <div class="progress">
+
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:80%">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="inform">
+                                        <div><span> Web Design</span></div>
+                                        <div><span> 65%</span></div>
+                                    </div>
+                                    <div class="progress">
+
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:65%">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="inform">
+                                        <div><span>User Interface</span></div>
+                                        <div><span> 75%</span></div>
+                                    </div>
+                                    <div class="progress">
+
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                             aria-valuemin="0" aria-valuemax="100" style="width:75%">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="images/team_fotojpg_03.jpg" alt="foto"/>
+                        </div>
+
+
+                        <div class="col-sm-5 col-sm-offset-3 ">
+
+                            <h5 class="text-right">Abdullah Noman<br>
+                                <span class="text-uppercase"><i>Creative Director, Code Cafe</i></span></h5>
+                            <p class="text-right">At vero eos et accusamus et iusto odio dignissimos <br>ducimus qui
+                                blanditiis praesentium
+                            </p>
+
+
+                            <div class="inform">
+                                <div><span> BRANDING</span></div>
+                                <div><span> 80%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span> Web Design</span></div>
+                                <div><span> 65%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:65%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span>User Interface</span></div>
+                                <div><span> 75%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="images/team_fotojpg_03.jpg" alt="foto"/>
+                        </div>
+
+
+                        <div class="col-sm-5 col-sm-offset-3 ">
+
+                            <h5 class="text-right">Abdullah Noman<br>
+                                <span class="text-uppercase"><i>Creative Director, Code Cafe</i></span></h5>
+                            <p class="text-right">At vero eos et accusamus et iusto odio dignissimos <br>ducimus qui
+                                blanditiis praesentium
+                            </p>
+
+
+                            <div class="inform">
+                                <div><span> BRANDING</span></div>
+                                <div><span> 80%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span> Web Design</span></div>
+                                <div><span> 65%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:65%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span>User Interface</span></div>
+                                <div><span> 75%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="images/team_fotojpg_03.jpg" alt="foto"/>
+                        </div>
+
+
+                        <div class="col-sm-5 col-sm-offset-3 ">
+
+                            <h5 class="text-right">Abdullah Noman<br>
+                                <span class="text-uppercase"><i>Creative Director, Code Cafe</i></span></h5>
+                            <p class="text-right">At vero eos et accusamus et iusto odio dignissimos <br>ducimus qui
+                                blanditiis praesentium
+                            </p>
+
+
+                            <div class="inform">
+                                <div><span> BRANDING</span></div>
+                                <div><span> 80%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:80%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span> Web Design</span></div>
+                                <div><span> 65%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:65%">
+
+                                </div>
+                            </div>
+
+                            <div class="inform">
+                                <div><span>User Interface</span></div>
+                                <div><span> 75%</span></div>
+                            </div>
+                            <div class="progress">
+
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:75%">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="button-contact">
+    <div class="text-center">
+        <h4>Already Loved Us? Let’s talk!</h4>
+        <a href="#Contact">Contact Us</a>
+    </div>
+
+</section>
+
+<section class="testimonials" id="Blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-sm-offset-3">
+                <h3 class="text-center text-uppercase">Testimonials</h3>
+                <p class="text-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium</p>
+            </div>
+        </div>
+        <div class="coment">
+            <div class="owl-carousel">
+                <div class="row">
+
+                    <div class="col-sm-2 col-sm-offset-1 col-xs-offset-4 col-xs-4">
+                        <div class="foto-coment">
+                            <img src="images/foto_man_03.jpg" alt="foto">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                        <p class="text-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+                            mollitia.</p>
+                        <p class="text-uppercase text-left"><b><span>PARTHO</span></b><br>
+                            FOUNDER, ARTWAYS BD
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-2 col-sm-offset-1 col-xs-offset-4 col-xs-4">
+                        <div class="foto-coment">
+                            <img src="images/foto_man_03.jpg" alt="foto">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                        <p class="text-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+                            mollitia.</p>
+                        <p class="text-uppercase text-left"><b><span>PARTHO</span></b><br>
+                            FOUNDER, ARTWAYS BD
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-2 col-sm-offset-1 col-xs-offset-4 col-xs-4">
+                        <div class="foto-coment">
+                            <img src="images/foto_man_03.jpg" alt="foto">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-sm-offset-1 col-xs-12">
+                        <p class="text-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+                            mollitia.</p>
+                        <p class="text-uppercase text-left"><b><span>PARTHO</span></b><br>
+                            FOUNDER, ARTWAYS BD
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <h3 class="text-left text-uppercase">LATEST NEWS</h3>
+                <p class="text-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium</p>
+            </div>
+        </div>
+
+
+        <div class="owl-carousel">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-1  col-xs-10 ">
+                    <h4>The trending Landing Pages</h4>
+                    <p class="text-left"><span class="text-uppercase "><i>by<span> Kabir Uddin</span></i></span><br>
+                        6950 Likes - 243 Comments - 703 shares
+                    </p>
+                    <p class="text-left">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...<span
+                            id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <a onclick="myFunction1()" id="myBtn1">+Read more</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-1  col-xs-10 ">
+                    <h4>The trending Landing Pages</h4>
+                    <p class="text-left"><span class="text-uppercase "><i>by<span> Kabir Uddin</span></i></span><br>
+                        6950 Likes - 243 Comments - 703 shares
+                    </p>
+                    <p class="text-left">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...<span
+                            id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <a onclick="myFunction2()" id="myBtn2">+Read more</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-1 col-xs-10">
+                    <h4>The trending Landing Pages</h4>
+                    <p class="text-left"><span class="text-uppercase "><i>by<span> Kabir Uddin</span></i></span><br>
+                        6950 Likes - 243 Comments - 703 shares
+                    </p>
+                    <p class="text-left">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...<span
+                            id="dots3">...</span><span id="more3">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <a onclick="myFunction3()" id="myBtn3">+Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------>
+<section class="price">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-sm-offset-3">
+                <h3 class="text-uppercase text-center">Our Price</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 ">
+                <div href="#" class="thumbnail">
+                    <div class="upper">
+                        <div class="caption text-center">
+                            <a href="#" class=" text-uppercase"> <b>Premium</b></a>
+                        </div>
+                        <div class="cost">
+                            <p class="text-center">$60 </p>
+                            <p class="text-center">Per Month</p>
+                        </div>
+                    </div>
+                    <div class="overlap">
+                        <div class="cost">
+                            <p class="text-center">
+                                Full Branding<br>
+                                Project Management<br>
+                                Unlimited Revisions<br>
+                                24/7 h Service<br>
+                                Free Domain<br>
+                                Free Hosting
+                            </p>
+                        </div>
+                        <div class="caption text-center">
+                            <a href="#">Let’s Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div href="#" class="thumbnail">
+                    <div class="upper">
+                        <div class="caption text-center">
+                            <a href="#" class=" text-uppercase"> <b>VIP</b></a>
+                        </div>
+                        <div class="cost">
+                            <p class="text-center">$70 </p>
+                            <p class="text-center">Per Month</p>
+                        </div>
+                    </div>
+                    <div class="overlap">
+                        <div class="cost">
+                            <p class="text-center">
+                                Full Branding<br>
+                                Project Management<br>
+                                Unlimited Revisions<br>
+                                24/7 h Service<br>
+                                Free Domain<br>
+                                Free Hosting
+                            </p>
+                        </div>
+                        <div class="caption text-center">
+                            <a href="#">Let’s Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div href="#" class="thumbnail">
+                    <div class="upper">
+                        <div class="caption text-center">
+                            <a href="#" class=" text-uppercase"> <b>Exclusive</b></a>
+                        </div>
+                        <div class="cost">
+                            <p class="text-center">$80 </p>
+                            <p class="text-center">Per Month</p>
+                        </div>
+                    </div>
+                    <div class="overlap">
+                        <div class="cost">
+                            <p class="text-center">
+                                Full Branding<br>
+                                Project Management<br>
+                                Unlimited Revisions<br>
+                                24/7 h Service<br>
+                                Free Domain<br>
+                                Free Hosting
+                            </p>
+                        </div>
+                        <div class="caption text-center">
+                            <a href="#">Let’s Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------>
+
+<section class="subscribe ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-sm-offset-3">
+                <h3 class="text-uppercase text-center">Subscribe us</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+        </div>
+        <div class="row">
+            <form>
+                <input class="col-sm-5 col-sm-offset-2 col-xs-12" type="email" name="email"
+                       placeholder="Email Address"/>
+                <button type="submit" class="col-sm-2 col-sm-offset-1 text-uppercase col-xs-12">SUBMIT</button>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+<!------------------------------------------------>
+<section class="contact" id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-sm-offset-3">
+                <h3 class="text-uppercase text-center">Contact Us</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <div class="item">
+                        <img src="images/cont_email_03.jpg" alt="img_email">
+                        <div class="icon">
+                            <img src="images/cont_email_2_03.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <h4 class="text-uppercase text-center">EMAIL</h4>
+                        <p class="text-uppercase text-center">
+                            hello@codecafe.com<br>
+                            Personal@codecafe.com
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <div class="item">
+                        <img src="images/cont_office_03.jpg" alt="img_email">
+                        <div class="icon">
+                            <img src="images/cont_off_2_03.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <h4 class="text-uppercase text-center">OUR OFFICE</h4>
+                        <p class="text-uppercase text-center">
+                            240 Bhatikhana, 8200 Barisal<br>
+                            Bangladesh
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <div class="item">
+                        <img src="images/cont_tel_03.jpg" alt="img_email">
+                        <div class="icon">
+                            <img src="images/cont_tel_2_03.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <h4 class="text-uppercase text-center">PHONE</h4>
+                        <p class="text-uppercase text-center">
+                            +00 11 66 99 66 44<br>
+                            11 99 66 44 065
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+<!---------------------------------------------------------------------->
+<section class="forms">
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Your name">
+                    </div>
+                    <div class="col-sm-4 ">
+                        <input type="email" class="col-sm-4 form-control" id="exampleInputEmail1"
+                               placeholder="Email address">
+                    </div>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="col-sm-4 form-control" id="exampleInputName3" placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <textarea class="form-control" rows="9"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12 ">
+                        <button type="submit" class=" col-sm-12 col-xs-12 text-uppercase text-center">SUBMIT NOW
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+</section>
+<!------------------------------------------------>
+<section class="map">
+    <div class="googlemaps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d70033.75491615444!2d90.30306463854971!3d22.7023639715399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s240%20Bhatikhana%2C%208200%20Barisal%20Bangladesh!5e0!3m2!1sru!2sua!4v1608854470197!5m2!1sru!2sua"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+    </div>
+</section>
+
+<footer class="text-center">
+    <a class="logo-f" href="#">
+        <img src="images/logo_footer_03.png" alt="logo">
+    </a>
+    <p>Copyright 2015. All rights Reserved</p>
+    <div class="soc">
+        <a href="https://www.facebook.com/" title="Facebook" target="_blank"></a>
+        <a href="https://twitter.com/" title="Twitter" target="_blank"></a>
+        <a href="https://www.linkedin.com/" title="LinkedIn" target="_blank"></a>
+        <a href="https://www.instagram.com/" title="Instagram" target="_blank"></a>
+        <a href="https://vimeo.com/" title="vimeo" target="_blank"></a>
+    </div>
+</footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="js/style.js"></script>
+
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </html>

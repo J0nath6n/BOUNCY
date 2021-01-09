@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81e0058-9b32-4eda-89ed-e8c59ed5d8c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/0f08f2918d03097517bdd95de45f94dec71ba39e/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/e90e6ed416d1140fc8054831a95618f354de274f/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/already_bg_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_email_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_email_2_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_off_2_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_office_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_tel_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cont_tel_2_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foto_man_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo_footer_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news_bg_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pr_8_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pr_hover_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/subscribe_bg_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/team_fotojpg_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/98e428893b8da64f20ca7ff9a6335676a5c42638/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,17 +54,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bouncy-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Jobs/Yvh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,6 +80,9 @@
       <workItem from="1608676051984" duration="2338000" />
       <workItem from="1608804548863" duration="1487000" />
       <workItem from="1608807095351" duration="1073000" />
+      <workItem from="1610217389311" duration="894000" />
+      <workItem from="1610223998599" duration="958000" />
+      <workItem from="1610225332157" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="add header block">
       <created>1608678010730</created>
@@ -91,50 +116,22 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add header block" />
     <MESSAGE value="remade the header and filled in 2 sections" />
     <option name="LAST_COMMIT_MESSAGE" value="remade the header and filled in 2 sections" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="21" key="#Notifications" timestamp="1608806135304">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1608806135304" />
-    <state x="172" y="0" key="CommitChangelistDialog2" timestamp="1608970410836">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="172" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608970410836" />
-    <state x="341" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1608678363656" />
-    <state x="354" y="208" key="EditFileWatcherDialog" timestamp="1608676150369">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="354" y="208" key="EditFileWatcherDialog/0.0.1440.860@0.0.1440.860" timestamp="1608676150369" />
-    <state x="473" y="157" key="FileChooserDialogImpl" timestamp="1608969634486">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="473" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608969634486" />
-    <state x="499" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1608677135594" />
-    <state x="210" y="0" key="SettingsEditor" timestamp="1608804897910">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="210" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608804897910" />
-    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608677828284" />
-    <state x="296" y="128" key="Vcs.Push.Dialog.v2" timestamp="1608970416796">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="296" y="128" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608970416796" />
-    <state x="312" y="151" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1608678012396" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1608804584144">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1608804584144" />
-    <state x="502" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608970593305">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="502" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608970593305" />
-    <state x="529" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1608678319134" />
   </component>
 </project>
