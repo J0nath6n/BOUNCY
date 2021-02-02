@@ -376,6 +376,7 @@ header {
   .row {
     flex-wrap: wrap;
 
+
     .col-sm-6.item, .col-sm-3.item {
       padding-right: 0;
       padding-left: 0;
@@ -386,8 +387,8 @@ header {
         position: absolute;
         color: #ffffff;
         visibility: hidden;
-        top: 40%;
-        left: 25%;
+        top: 50%;
+        left: 33%;
         z-index: 3;
       }
 
@@ -416,6 +417,7 @@ header {
         display: block;
         width: 100%;
         height: 100%;
+        position: relative;
       }
 
       &:after {
@@ -800,7 +802,6 @@ header {
     width: 100%;
     cursor: pointer;
     position: relative;
-    transition-duration: 1s;
 
     img {
       max-width: 100%;
@@ -817,6 +818,7 @@ header {
       &:hover {
         background-color: rgba(0, 0, 0, 0.6);
         z-index: 99;
+
       }
     }
   }
@@ -829,7 +831,7 @@ header {
     background: rgba(0, 0, 0, 0.7); /* Black see-through */
     width: 100%;
     height: 100%;
-    transition: .3s ease;
+    transition: 0.6s;
     opacity: 1;
     color: white;
     font-size: 20px;
@@ -879,7 +881,7 @@ header {
         font-weight: 900;
         color: #ffffff;
         font-size: 14px;
-        transition-duration: 2s;
+        transition: 0.3s;
 
       }
 
@@ -887,7 +889,7 @@ header {
         &:before {
           content: "\f004";
           font-weight: 400;
-          transition-duration: 1s;
+          transition: 0.5ms;
         }
       }
     }
@@ -1034,7 +1036,7 @@ header {
         margin-top: 7px;
         margin-left: 0;
         background-color: $main-color;
-
+        transition: 0.9s;
       }
 
 
