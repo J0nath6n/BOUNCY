@@ -2,34 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c81e0058-9b32-4eda-89ed-e8c59ed5d8c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/e90e6ed416d1140fc8054831a95618f354de274f/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/already_bg_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_email_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_email_2_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_off_2_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_office_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_tel_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cont_tel_2_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/foto_man_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_footer_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news_bg_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pr_8_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pr_hover_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/subscribe_bg_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team_fotojpg_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/6186a9f393270da4c66eeb31f23d65acd8d3075b/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/98e428893b8da64f20ca7ff9a6335676a5c42638/style.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +36,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1m1znK9O4uN0dLeUStM95mLjRU4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Jobs/Yvh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BB" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -83,6 +77,7 @@
       <workItem from="1610217389311" duration="894000" />
       <workItem from="1610223998599" duration="958000" />
       <workItem from="1610225332157" duration="1788000" />
+      <workItem from="1612042691433" duration="7968000" />
     </task>
     <task id="LOCAL-00001" summary="add header block">
       <created>1608678010730</created>
@@ -128,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add header block" />

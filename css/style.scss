@@ -2,7 +2,9 @@
 @import "bootstrap-theme.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
 @import "owl.theme.default.min.css";
-@import "owl.carousel.min.css";
+@import "owl.carousel.css";
+@import "bootstrap.css";
+
 
 $font-main: 'Open Sans', sans-serif;
 $font-sub: 'Source Sans Pro', sans-serif;
@@ -87,6 +89,7 @@ header {
       &:hover {
         color: white;
         border: white 1px solid;
+        transition-duration: 0.8s;
 
 
       }
@@ -96,6 +99,7 @@ header {
         border: white 1px solid;
         border-radius: 25px;
         padding-bottom: 12px;
+        transition-duration: 1s;
         padding-top: 10px;
       }
     }
@@ -167,12 +171,14 @@ header {
       color: #ffffff;
       font-size: 14px;
       padding-left: 14px;
+      transition-duration: 5s;
     }
 
     &:hover {
       animation: jump;
       animation-duration: 1s;
       animation-timing-function: linear;
+      transition-duration: 2s;
     }
   }
 }
@@ -220,6 +226,7 @@ header {
         background-color: $main-color;
         color: #ffffff;
         border: none;
+        transition-duration: 1s;
       }
 
 
@@ -291,11 +298,13 @@ header {
       &:hover {
         background-color: #19bd9a;
         border: 1px solid $main-color;
+        transition-duration: 0.9s;
       }
 
       &.active {
         background-color: #19bd9a;
         border: 1px solid $main-color;
+        transition-duration: 0.9s;
       }
 
 
@@ -416,11 +425,14 @@ header {
         height: 100%;
         position: absolute;
         top: 0;
+        transition-duration: 1.5s;
       }
 
       &:hover {
         &:after {
           background-color: rgba(22, 22, 22, 0.81);
+          transition-duration: 1s;
+
         }
 
         h3 {
@@ -475,6 +487,7 @@ header {
       &:hover {
         background-color: #ffffff;
         color: $main-color;
+        transition-duration: 0.9s;
       }
 
     }
@@ -515,11 +528,13 @@ header {
         &:hover {
           background-color: #19bd9a;
           border: 1px solid $main-color;
+          transition-duration: 0.9s;
         }
 
         &:hover.active {
           background-color: #19bd9a;
           border: 1px solid $main-color;
+          transition-duration: 0.7s;
         }
       }
 
@@ -751,7 +766,7 @@ header {
 
     &:after {
       visibility: visible;
-
+      transition-duration: 1s;
     }
   }
 
@@ -785,6 +800,7 @@ header {
     width: 100%;
     cursor: pointer;
     position: relative;
+    transition-duration: 1s;
 
     img {
       max-width: 100%;
@@ -798,8 +814,10 @@ header {
       display: block;
       width: 100%;
       height: 100%;
-      position: absolute;
-      top: 0;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 99;
+      }
     }
   }
 
@@ -861,6 +879,7 @@ header {
         font-weight: 900;
         color: #ffffff;
         font-size: 14px;
+        transition-duration: 2s;
 
       }
 
@@ -868,6 +887,7 @@ header {
         &:before {
           content: "\f004";
           font-weight: 400;
+          transition-duration: 1s;
         }
       }
     }
@@ -1014,7 +1034,9 @@ header {
         margin-top: 7px;
         margin-left: 0;
         background-color: $main-color;
+
       }
+
 
     }
 
